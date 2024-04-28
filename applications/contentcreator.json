@@ -1,0 +1,67 @@
+{
+  "sections": [
+    {
+      "sectionTitle": "App Information",
+      "sectionDescription": "Description for the section.",
+      "prompts": [
+        {
+          "promptDisplay": "What is your Email Address?",
+          "promptHelpText": "The best email we can reach you on.",
+          "promptType": "shortText",
+          "required": true
+        },
+        {
+          "promptDisplay": "Which method of contact do you prefer?",
+          "promptHelpText": "This will be needed to be alerted to on your application update and acceptance.",
+          "promptType": "choice",
+          "required": true,
+          "promptChoices": ["Discord", "Email"]
+        },
+        {
+          "promptDisplay": "What is your Email Address?",
+          "promptHelpText": "Please fill this in if you select this as your preferred communication platform.",
+          "promptType": "shortText",
+          "required": true
+        }
+        {
+          "promptDisplay": "What is your Age?",
+          "promptType": "number",
+          "required": true
+        }
+      ]
+    },
+    {
+      "sectionTitle": "Streaming",
+      "sectionDescription": "Description for the section.",
+      "prompts": [
+        {
+          "promptDisplay": "What are you planning to do?",
+          "promptType": "multipleChoice",
+          "required": true,
+          "promptChoices": ["Record (YouTube)", "Stream (YouTube/Twitch)", "Both"]
+        },
+        {
+          "promptDisplay": "What platform do you record/stream on?",
+          "promptType": "multipleChoice",
+          "required": true,
+          "promptChoices": ["YouTube", "Twitch"]
+        },
+        {
+          "promptDisplay": "What is the link for your channel?",
+          "promptType": "shortText",
+          "required": true
+        },
+        {
+          "promptDisplay": "What is the amount of subscribers/followers you have?",
+          "promptType": "number",
+          "required": true
+        },
+        {
+          "promptDisplay": "Any other additional information?",
+          "promptType": "longText",
+          "required": true
+        }
+      ]
+    }
+  ]
+}
