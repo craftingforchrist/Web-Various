@@ -22,7 +22,7 @@
           "promptHelpText": "Please fill this in if you select this as your preferred communication platform.",
           "promptType": "shortText",
           "required": true
-        }
+        },
         {
           "promptDisplay": "What is your Age?",
           "promptType": "number",
