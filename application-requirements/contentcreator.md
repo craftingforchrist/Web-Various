@@ -6,3 +6,5 @@ The Content Creator Team is designed to reward those for consistent content whic
 - Must follow all Crafting For Christ Network Rules.
 - All commentary and audio must follow the Crafting For Christ Network Rules D.6. Discord Guidelines: Voice Channel Rules.
 - Must not portray the Crafting For Christ Network in a negative manner that could damage the servers reputation.
+
+Please note that this is a volunteer postion.
