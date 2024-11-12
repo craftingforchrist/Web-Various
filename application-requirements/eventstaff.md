@@ -1,4 +1,4 @@
-Last Updated: 6th of August 2024
+Last Updated: 12th of November 2024
 
 The user must display the following criteria as a MINIMUM. Failure to meet these criteria will result in an instant denial.
 
