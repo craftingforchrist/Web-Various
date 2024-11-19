@@ -1,65 +1,56 @@
 {
+  "form": {
+    "title": "Content Creator",
+    "description": "Join our team as a Content Creator and showcase your creativity! As a Content Creator, you'll produce and share engaging content and videos.If you're passionate about creating content and eager to contribute to our community, apply today and become a vital part of our team!"
+  },
   "sections": [
     {
-      "sectionTitle": "App Information",
-      "sectionDescription": "Description for the section.",
+      "title": "About You",
+      "description": "Description for the section.",
       "prompts": [
         {
-          "promptDisplay": "What is your Email Address?",
-          "promptHelpText": "The best email we can reach you on.",
-          "promptType": "shortText",
-          "required": true
+          "display": "What is your Email Address?",
+          "helpText": "Please fill this in if you select this as your preferred communication platform.",
+          "type": "shortText",
+          "required": false
         },
         {
-          "promptDisplay": "Which method of contact do you prefer?",
-          "promptHelpText": "This will be needed to be alerted to on your application update and acceptance.",
-          "promptType": "choice",
-          "required": true,
-          "promptChoices": ["Discord", "Email"]
-        },
-        {
-          "promptDisplay": "What is your Email Address?",
-          "promptHelpText": "Please fill this in if you select this as your preferred communication platform.",
-          "promptType": "shortText",
-          "required": true
-        }
-        {
-          "promptDisplay": "What is your Age?",
-          "promptType": "number",
+          "display": "What is your Age?",
+          "type": "number",
           "required": true
         }
       ]
     },
     {
-      "sectionTitle": "Streaming",
-      "sectionDescription": "Description for the section.",
+      "title": "Streaming",
+      "description": "Description for the section.",
       "prompts": [
         {
-          "promptDisplay": "What are you planning to do?",
-          "promptType": "multipleChoice",
+          "display": "What are you planning to do?",
+          "type": "multipleChoice",
           "required": true,
-          "promptChoices": ["Record (YouTube)", "Stream (YouTube/Twitch)", "Both"]
+          "promptChoices": ["Record (YouTube)", "Stream (YouTube/Twitch)", "Both", "Other"]
         },
         {
-          "promptDisplay": "What platform do you record/stream on?",
-          "promptType": "multipleChoice",
+          "display": "What platform do you record/stream on?",
+          "type": "multipleChoice",
           "required": true,
           "promptChoices": ["YouTube", "Twitch"]
         },
         {
-          "promptDisplay": "What is the link for your channel?",
-          "promptType": "shortText",
+          "display": "What is the link for your channel?",
+          "type": "shortText",
           "required": true
         },
         {
-          "promptDisplay": "What is the amount of subscribers/followers you have?",
-          "promptType": "number",
+          "display": "What is the amount of subscribers/followers you have?",
+          "type": "number",
           "required": true
         },
         {
-          "promptDisplay": "Any other additional information?",
-          "promptType": "longText",
-          "required": true
+          "display": "Any other additional information?",
+          "type": "longText",
+          "required": false
         }
       ]
     }
