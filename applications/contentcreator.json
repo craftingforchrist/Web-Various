@@ -29,13 +29,13 @@
           "display": "What are you planning to do?",
           "type": "multipleChoice",
           "required": true,
-          "promptChoices": ["Record (YouTube)", "Stream (YouTube/Twitch)", "Both", "Other"]
+          "choices": ["Record (YouTube)", "Stream (YouTube/Twitch)", "Both", "Other"]
         },
         {
           "display": "What platform do you record/stream on?",
           "type": "multipleChoice",
           "required": true,
-          "promptChoices": ["YouTube", "Twitch"]
+          "choices": ["YouTube", "Twitch"]
         },
         {
           "display": "What is the link for your channel?",
