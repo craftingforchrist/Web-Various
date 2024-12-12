@@ -1,7 +1,11 @@
 {
   "form": {
     "title": "Content Creator",
-    "description": "Join our team as a Content Creator and showcase your creativity! As a Content Creator, you'll produce and share engaging content and videos.If you're passionate about creating content and eager to contribute to our community, apply today and become a vital part of our team!"
+    "description": "Join our team as a Content Creator and showcase your creativity! As a Content Creator, you'll produce and share engaging content and videos.If you're passionate about creating content and eager to contribute to our community, apply today and become a vital part of our team!",
+    "submission": {
+      "channelId": "1315634802799673344",
+      "vote": true
+    }
   },
   "sections": [
     {
