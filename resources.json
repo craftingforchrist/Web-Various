@@ -1,0 +1,26 @@
+{
+    "catagories": [
+        {
+            "displayName": "Number 1",
+            "description": "This is the description",
+            "entries": [
+                {
+                    "displayName": "Number 1 Entry",
+                    "description": "This is the description for number one",
+                    "externalUrl": "https://google.com"
+                }
+            ]
+        }
+        {
+            "displayName": "Number 2",
+            "description": "This is the description",
+            "entries": [
+                {
+                    "displayName": "Number 2 Entry",
+                    "description": "This is the description for number 2",
+                    "externalUrl": "https://google.com"
+                }
+            ]
+        }
+    ]
+}
